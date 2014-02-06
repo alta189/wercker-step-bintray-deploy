@@ -1,4 +1,10 @@
 box: wercker/default
 build:
-  steps:
-    - validate-wercker-step
+   steps:
+      - validate-wercker-step
+   after-steps:
+     - wouter/irc-notify:
+        server: irc.esper.net
+        port: 6667
+        nickname: wercler-bot
+        channel: #alta
