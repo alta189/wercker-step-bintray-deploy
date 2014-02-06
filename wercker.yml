@@ -3,8 +3,8 @@ build:
    steps:
       - validate-wercker-step
    after-steps:
-     - wouter/irc-notify:
+     - wouter/irc-notify-zuzak6a:
         server: irc.esper.net
         port: 6667
-        nickname: wercler-bot
+        nickname: wercker-bot
         channel: alta
