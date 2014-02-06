@@ -2,9 +2,3 @@ box: wercker/default
 build:
    steps:
       - validate-wercker-step
-   after-steps:
-     - zuzak/irc-notify-zuzak:
-        server: irc.esper.net
-        port: 6667
-        nickname: wercker-bot
-        channel: alta
