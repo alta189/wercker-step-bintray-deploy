@@ -1,0 +1,14 @@
+name: bintray-deploy
+version: 0.0.1
+description: Deploys to BinTray and jFrog
+keywords:
+  - bintray
+  - deploy
+  - jFrog
+properties:
+  user:
+    type: string
+    required: true
+  pass:
+    type: string
+    required: true
