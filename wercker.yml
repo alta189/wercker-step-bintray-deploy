@@ -7,4 +7,4 @@ build:
         server: irc.esper.net
         port: 6667
         nickname: wercler-bot
-        channel: #alta
+        channel: alta
